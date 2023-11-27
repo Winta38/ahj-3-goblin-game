@@ -1,0 +1,61 @@
+body {
+    background: #8a8989;
+    display: flex;
+    justify-content: center;
+}
+
+.game-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.board {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.title {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    color: #1d1c1c;
+    font: 40px sans-serif;
+    text-transform: uppercase;
+}
+
+.control {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0;
+    color: rgb(219, 224, 224);
+    font: 20px sans-serif;
+    text-transform: uppercase;
+}
+
+.cell {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background: rgb(10, 10, 10);
+    border-radius: 50%; 
+    cursor: url('../cursor/Hammer.cur'), auto;
+}
+
+.active {
+    background-image: url('../img/goblin.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.color-active {
+    background-image: url('../img/hit.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
